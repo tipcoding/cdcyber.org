@@ -184,5 +184,25 @@ export const coursesData = [
       { week: 'Weeks 5-6', title: 'Advanced Threat Protection', topics: ['Intrusion Prevention Systems (IPS)', 'Web Filtering & Application Control', 'SSL/TLS Decryption', 'Antivirus & Sandboxing'] },
       { week: 'Weeks 7-8', title: 'VPNs & Troubleshooting', topics: ['Site-to-Site IPsec VPNs', 'Remote Access VPNs (SSL VPN)', 'Traffic Captures & Packet Logging', 'Log Analysis & Reporting'] }
     ]
+  },
+  {
+    id: 'ad-mastery',
+    title: 'Active Directory Mastery',
+    level: 'Intermediate to Advanced',
+    duration: '8 Weeks',
+    description: 'Master the core of enterprise identity. Learn to architect, manage, and secure Microsoft Active Directory environments against modern threats.',
+    icon: '🔑',
+    color: '#3b82f6',
+    heroBg: 'rgba(59, 130, 246, 0.1)',
+    prerequisites: [
+      'Basic Windows Server administration knowledge',
+      'Understanding of core networking concepts'
+    ],
+    syllabus: [
+      { week: 'Weeks 1-2', title: 'AD Architecture & Fundamentals', topics: ['Domain Controllers & Forests', 'FSMO Roles', 'DNS Integration', 'Trust Relationships'] },
+      { week: 'Weeks 3-4', title: 'Identity & Access Management', topics: ['Users, Groups, and OUs', 'Role-Based Access Control (RBAC)', 'Kerberos & NTLM Authentication', 'LAPS (Local Administrator Password Solution)'] },
+      { week: 'Weeks 5-6', title: 'Group Policy & Automation', topics: ['GPO Design and Linking', 'Security Filtering & WMI', 'PowerShell for AD Administration', 'Automating User Provisioning'] },
+      { week: 'Weeks 7-8', title: 'Hardening & Auditing', topics: ['Tiered Administrative Model', 'Auditing & Event Forwarding', 'Detecting Attacks (Golden Ticket/Pass-the-Hash)', 'Azure AD (Entra ID) Hybrid Concepts'] }
+    ]
   }
 ];
