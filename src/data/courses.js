@@ -38,10 +38,17 @@ export const coursesData = [
     syllabus: [
       { week: 'Days 1', title: 'Foundation', topics: ['1. Penetration Testing Process', '2. Getting Started'] },
       { week: 'Days 2', title: 'Enumeration', topics: ['3. Network Enumeration with Nmap', '4. Footprinting'] },
-      { week: 'Days 4-6', title: 'Web Exploitation', topics: ['Burp Suite Mastery', 'Advanced SQLi & XSS', 'Server-Side Request Forgery (SSRF)', 'API Testing'] },
-      { week: 'Days 7-9', title: 'Internal Network Penetration Testing', topics: ['LLMNR/NBT-NS Poisoning', 'SMB/RPC Enumeration', 'Password Cracking (Hashcat/John)', 'Pivoting and Tunneling (Chisel, Ligolo)'] },
-      { week: 'Days 10-12', title: 'Advanced Active Directory', topics: ['BloodHound Analytics', 'DCSync & DPAPI', 'Constrained/Unconstrained Delegation', 'Forest Trusts'] },
-      { week: 'Days 13-14', title: 'CPTS Exam Preparation', topics: ['Report Writing Standards', 'Time Management Strategies', 'Report'] }
+      { week: 'Days 3', title: 'Enumeration', topics: ['5. Information Gathering - Web Edition', '6. Vulnerability Assessment'] },
+      { week: 'Days 4', title: 'Initial Access', topics: ['7. File Transfers', '8. Shells & Payloads', '9. Using the Metasploit Framework'] },
+      { week: 'Days 5', title: 'Exploitation', topics: ['10. Password Attacks', '11. Attacking Common Services'] },
+      { week: 'Days 6', title: 'Internal Network', topics: ['12. Pivoting, Tunneling, and Port Forwarding'] },
+      { week: 'Days 7', title: 'Internal Network', topics: ['13. Active Directory Enumeration & Attacks'] },
+      { week: 'Days 8', title: 'Web Pentesting', topics: ['14. Using Web Proxies', '15. Attacking Web Applications with Ffuf', '16. Login Brute Forcing'] },
+      { week: 'Days 9', title: 'Web Pentesting', topics: ['17. SQL Injection Fundamentals', '18. SQLMap Essentials', '19. Cross-Site Scripting (XSS)'] },
+      { week: 'Days 10', title: 'Web Pentesting', topics: ['20. File Inclusion ', '21. File Upload Attacks', '22. Command Injections'] },
+      { week: 'Days 11', title: 'Web Pentesting ', topics: ['23. Web Attacks', '24. Attacking Common Applications'] },
+      { week: 'Days 12', title: 'Post Exploitation ', topics: ['25. Linux Privilege Escalation', '26. Windows Privilege Escalation', '27. Documentation & Reporting', '28. Attacking Enterprise Networks'] },
+
     ]
   },
   {
