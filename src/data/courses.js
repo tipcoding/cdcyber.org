@@ -36,11 +36,11 @@ export const coursesData = [
       'Prior exposure to basic penetration testing concepts'
     ],
     syllabus: [
-      { week: 'Weeks 1-3', title: 'Penetration Testing Process & Recon', topics: ['PTES Methodology', 'Advanced Nmap & Masscan', 'Subdomain Enumeration', 'Footprinting'] },
-      { week: 'Weeks 4-6', title: 'Web Exploitation', topics: ['Burp Suite Mastery', 'Advanced SQLi & XSS', 'Server-Side Request Forgery (SSRF)', 'API Testing'] },
-      { week: 'Weeks 7-9', title: 'Internal Network Penetration Testing', topics: ['LLMNR/NBT-NS Poisoning', 'SMB/RPC Enumeration', 'Password Cracking (Hashcat/John)', 'Pivoting and Tunneling (Chisel, Ligolo)'] },
-      { week: 'Weeks 10-12', title: 'Advanced Active Directory', topics: ['BloodHound Analytics', 'DCSync & DPAPI', 'Constrained/Unconstrained Delegation', 'Forest Trusts'] },
-      { week: 'Weeks 13-14', title: 'CPTS Exam Preparation', topics: ['Report Writing Standards', 'Time Management Strategies', 'Full Network Simulation'] }
+      { week: 'Days 1-3', title: 'Penetration Testing Process & Recon', topics: ['PTES Methodology', 'Advanced Nmap & Masscan', 'Subdomain Enumeration', 'Footprinting'] },
+      { week: 'Days 4-6', title: 'Web Exploitation', topics: ['Burp Suite Mastery', 'Advanced SQLi & XSS', 'Server-Side Request Forgery (SSRF)', 'API Testing'] },
+      { week: 'Days 7-9', title: 'Internal Network Penetration Testing', topics: ['LLMNR/NBT-NS Poisoning', 'SMB/RPC Enumeration', 'Password Cracking (Hashcat/John)', 'Pivoting and Tunneling (Chisel, Ligolo)'] },
+      { week: 'Days 10-12', title: 'Advanced Active Directory', topics: ['BloodHound Analytics', 'DCSync & DPAPI', 'Constrained/Unconstrained Delegation', 'Forest Trusts'] },
+      { week: 'Days 13-14', title: 'CPTS Exam Preparation', topics: ['Report Writing Standards', 'Time Management Strategies', 'Report'] }
     ]
   },
   {
