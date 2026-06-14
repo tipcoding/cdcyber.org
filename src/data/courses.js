@@ -31,6 +31,7 @@ export const coursesData = [
     color: '#9fef00',
     heroBg: 'rgba(159, 239, 0, 0.1)',
     prerequisites: [
+      'https://academy.hackthebox.com/app/paths/16/path-progress',
       'Comfortable with Linux and Windows ecosystems',
       'Solid networking fundamentals',
       'Prior exposure to basic penetration testing concepts'
