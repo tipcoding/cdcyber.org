@@ -25,7 +25,7 @@ export const coursesData = [
     id: 'cpts',
     title: 'CPTS (Hack The Box)',
     level: 'Advanced',
-    duration: '14 Weeks',
+    duration: '12 Days',
     description: 'Master the Hack The Box Certified Penetration Testing Specialist path. Highly practical, deeply technical training focusing on modern enterprise exploitation.',
     icon: '🟩',
     color: '#9fef00',
@@ -36,7 +36,8 @@ export const coursesData = [
       'Prior exposure to basic penetration testing concepts'
     ],
     syllabus: [
-      { week: 'Days 1-3', title: 'Penetration Testing Process & Recon', topics: ['PTES Methodology', 'Advanced Nmap & Masscan', 'Subdomain Enumeration', 'Footprinting'] },
+      { week: 'Days 1', title: 'Foundation', topics: ['1. Penetration Testing Process', '2. Getting Started'] },
+      { week: 'Days 2', title: 'Enumeration', topics: ['3. Network Enumeration with Nmap', '4. Footprinting'] },
       { week: 'Days 4-6', title: 'Web Exploitation', topics: ['Burp Suite Mastery', 'Advanced SQLi & XSS', 'Server-Side Request Forgery (SSRF)', 'API Testing'] },
       { week: 'Days 7-9', title: 'Internal Network Penetration Testing', topics: ['LLMNR/NBT-NS Poisoning', 'SMB/RPC Enumeration', 'Password Cracking (Hashcat/John)', 'Pivoting and Tunneling (Chisel, Ligolo)'] },
       { week: 'Days 10-12', title: 'Advanced Active Directory', topics: ['BloodHound Analytics', 'DCSync & DPAPI', 'Constrained/Unconstrained Delegation', 'Forest Trusts'] },
