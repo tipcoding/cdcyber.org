@@ -109,7 +109,7 @@ export const coursesData = [
       'Familiarity with web technologies (HTTP, HTML)'
     ],
     syllabus: [
-      { week: 'Weeks 1-2', title: 'Introduction & Methodology', topics: ['PTES Standard', 'Ethics & RoE', 'Attacking Environment Setup', 'OSINT'] },
+      { week: 'Lesson 1-5', title: 'Nền tảng và Reconnaissance', topics: ['Tổng quan về Pentest, đạo đức và phạm vi kiểm thử', 'Linux và Command Line', 'Networking và các giao thức cơ bản', 'Reconnaissance, OSINT và Attack Surface', 'Scanning và Enumeration'] },
       { week: 'Weeks 3-4', title: 'Network Scanning', topics: ['Nmap', 'Service Enumeration', 'Vulnerability Scanning', 'Traffic Analysis'] },
       { week: 'Weeks 5-6', title: 'Client-Side Attacks', topics: ['Phishing', 'Malicious Documents', 'Browser Exploitation', 'AV Evasion Basics'] },
       { week: 'Weeks 7-8', title: 'Post-Exploitation', topics: ['Maintaining Access', 'Data Exfiltration', 'Executive Summaries', 'Remediation'] }
