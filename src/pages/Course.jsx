@@ -22,8 +22,8 @@ const Course = () => {
 
   return (
     <main className="course-page">
-      <div 
-        className="course-hero" 
+      <div
+        className="course-hero"
         style={{ background: `linear-gradient(180deg, ${course.heroBg} 0%, var(--bg-dark) 100%)` }}
       >
         <div className="container">
@@ -46,7 +46,7 @@ const Course = () => {
 
       <section className="syllabus-section container">
         <div className="syllabus-grid">
-          
+
           <div className="syllabus-content animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h2 className="section-title" style={{ textAlign: 'left', fontSize: '2rem' }}>
               Course <span style={{ color: course.color }}>Syllabus</span>
@@ -80,17 +80,17 @@ const Course = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="glass-panel sidebar-widget cta-widget">
-              <h3>Ready to dive in?</h3>
-              <p>Secure your spot in the next cohort and start your cyber security journey.</p>
-              <a 
-                href="https://forms.gle/iw7MrUcLKakPAmjE7"
+              <h3>Register</h3>
+              <p>Đăng ký tham gia khóa học và bắt đầu hành trình an ninh mạng của bạn.</p>
+              <a
+                href="https://forms.gle/vwwM56Pw3TDfsM8w9"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-cyber w-100" 
-                style={{ 
-                  '--accent-green': course.color, 
+                className="btn-cyber w-100"
+                style={{
+                  '--accent-green': course.color,
                   '--accent-green-glow': course.color,
                   display: 'flex',
                   textDecoration: 'none'
