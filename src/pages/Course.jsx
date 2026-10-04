@@ -85,7 +85,7 @@ const Course = () => {
               <h3>Register</h3>
               <p>Đăng ký tham gia khóa học và bắt đầu hành trình an ninh mạng của bạn.</p>
               <a
-                href="https://forms.gle/vwwM56Pw3TDfsM8w9"
+                href={course.registerLink || 'https://forms.gle/vwwM56Pw3TDfsM8w9'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cyber w-100"

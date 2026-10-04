@@ -8,6 +8,7 @@ export const coursesData = [
     icon: '🛡️',
     color: 'var(--accent-green)',
     heroBg: 'rgba(0, 255, 102, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Solid understanding of TCP/IP, networking, and Linux command line',
       'Basic scripting skills (Python, Bash)',
@@ -30,6 +31,7 @@ export const coursesData = [
     icon: '🟩',
     color: '#9fef00',
     heroBg: 'rgba(159, 239, 0, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'https://academy.hackthebox.com/app/paths/16/path-progress',
       'Comfortable with Linux and Windows ecosystems',
@@ -61,6 +63,7 @@ export const coursesData = [
     icon: '👁️',
     color: '#0070f3',
     heroBg: 'rgba(0, 112, 243, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Basic understanding of networking (OSI Model, TCP/IP)',
       'Familiarity with Windows and Linux logs',
@@ -83,6 +86,7 @@ export const coursesData = [
     icon: '🔐',
     color: '#ff00ff',
     heroBg: 'rgba(255, 0, 255, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'No strict prerequisites',
       'General IT knowledge and curiosity'
@@ -103,6 +107,7 @@ export const coursesData = [
     icon: '🎯',
     color: 'var(--accent-cyan)',
     heroBg: 'rgba(0, 240, 255, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Sinh viên, học sinh đam mê IT / Cyber Security / An ninh mạng',
       'Người mới bắt đầu tìm hiểu về Penetration Testing',
@@ -124,6 +129,7 @@ export const coursesData = [
     icon: '🖥️',
     color: '#ff9900',
     heroBg: 'rgba(255, 153, 0, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Basic computer literacy',
       'Desire to understand how operating systems work under the hood'
@@ -144,6 +150,7 @@ export const coursesData = [
     icon: '🌐',
     color: '#00bceb',
     heroBg: 'rgba(0, 188, 235, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'General IT knowledge',
       'No prior networking experience required'
@@ -165,6 +172,7 @@ export const coursesData = [
     icon: '📡',
     color: '#a855f7',
     heroBg: 'rgba(168, 85, 247, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Absolute beginners welcome'
     ],
@@ -183,6 +191,7 @@ export const coursesData = [
     icon: '🧱',
     color: '#ef4444',
     heroBg: 'rgba(239, 68, 68, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Solid networking fundamentals (equivalent to CCNA)',
       'Understanding of TCP/UDP ports and protocols'
@@ -203,6 +212,7 @@ export const coursesData = [
     icon: '🔑',
     color: '#3b82f6',
     heroBg: 'rgba(59, 130, 246, 0.1)',
+    registerLink: 'https://forms.gle/vwwM56Pw3TDfsM8w9',
     prerequisites: [
       'Basic Windows Server administration knowledge',
       'Understanding of core networking concepts'
