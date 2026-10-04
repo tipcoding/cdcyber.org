@@ -98,21 +98,21 @@ export const coursesData = [
     id: 'pentest',
     title: 'Penetration Testing',
     level: 'Intermediate',
-    duration: '8 Weeks',
-    description: 'Learn the methodology of modern penetration testing. From reconnaissance and scanning to exploitation and post-exploitation reporting.',
+    duration: '15 Buổi học',
+    description: 'Khóa học tập trung vào thực hành và xây dựng nền tảng Pentest từ cơ bản đến hoàn chỉnh. Nội dung được hướng dẫn từng bước, học viên trực tiếp thực hành trên môi trường lab và tự hoàn thành các bài tập để hiểu rõ bản chất của từng kỹ thuật.',
     icon: '🎯',
     color: 'var(--accent-cyan)',
     heroBg: 'rgba(0, 240, 255, 0.1)',
     prerequisites: [
-      'Basic networking knowledge',
-      'Comfortable navigating Linux and Windows',
-      'Familiarity with web technologies (HTTP, HTML)'
+      'Sinh viên, học sinh đam mê IT / Cyber Security / An ninh mạng',
+      'Người mới bắt đầu tìm hiểu về Penetration Testing',
+      'Người đã có kiến thức cơ bản về Linux nhưng chưa có nhiều kinh nghiệm thực hành',
+      'Những bạn muốn xây dựng nền tảng trước khi học các chứng chỉ hoặc khóa Pentest nâng cao'
     ],
     syllabus: [
-      { week: 'Lesson 1-5', title: 'Nền tảng và Reconnaissance', topics: ['Tổng quan về Pentest, đạo đức và phạm vi kiểm thử', 'Linux và Command Line', 'Networking và các giao thức cơ bản', 'Reconnaissance, OSINT và Attack Surface', 'Scanning và Enumeration'] },
-      { week: 'Weeks 3-4', title: 'Network Scanning', topics: ['Nmap', 'Service Enumeration', 'Vulnerability Scanning', 'Traffic Analysis'] },
-      { week: 'Weeks 5-6', title: 'Client-Side Attacks', topics: ['Phishing', 'Malicious Documents', 'Browser Exploitation', 'AV Evasion Basics'] },
-      { week: 'Weeks 7-8', title: 'Post-Exploitation', topics: ['Maintaining Access', 'Data Exfiltration', 'Executive Summaries', 'Remediation'] }
+      { week: 'Phần 1: Buổi 1-5', title: 'Nền tảng và Reconnaissance', topics: ['Tổng quan về Pentest, đạo đức và phạm vi kiểm thử', 'Linux và Command Line', 'Networking và các giao thức cơ bản', 'Reconnaissance, OSINT và Attack Surface', 'Scanning và Enumeration'] },
+      { week: 'Phần 2: Buổi 6-9', title: 'Web Pentesting', topics: ['HTTP/HTTPS, Session, Cookie và Authentication', 'Burp Suite và các công cụ kiểm thử Web', 'Injection và các lỗi xử lý Input', 'Client-side Vulnerabilities', 'File và Resource Vulnerabilities', 'Authentication, Access Control và Business Logic', 'API Security cơ bản'] },
+      { week: 'Phần 3: Buổi 10-15', title: 'System Pentesting', topics: ['Initial Access và Shell', 'Linux Privilege Escalation', 'Windows Privilege Escalation', 'Password và Credential', 'Hash và Password Attacks', 'Pentest Report Writing', 'Thực hành một quy trình Pentest hoàn chỉnh'] },
     ]
   },
   {
